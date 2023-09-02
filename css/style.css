@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero {
+    background-color: black;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+nav {
+    padding: 1rem;
+    background-color: rgb(255, 238, 0);
+    display: flex;
+}
+
+.nav-con {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo a {
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    align-items: center;
+}
+
+.menu li {
+    margin: 0 1rem;
+}
+
+.menu li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.header-btn {
+    display: inline-block;
+    background-color: red;
+    color: yellow;
+    padding: 1rem;
+    border-radius: 5px;
+    text-decoration: none
+}
+
+.hero-con {
+    display: flex;
+}
+
+.hero-info {
+    width: 100%;
+    padding: 2rem;
+    background-color: rgba(133, 5, 5, 0.911);
+}
+
+.hero-info h3 {
+    font-size: 2rem;
+    color: white;
+}
+
+.hero-info p {
+    margin: 1rem 0;
+    color: rgb(255, 255, 255);
+}
+
+.hero-info .hero-btn {
+    display: inline-block;
+    background-color: red;
+    color: yellow;
+    padding: 1rem;
+    border-radius: 5px;
+    text-decoration: none
+}
+
+.hero-img img {
+    width: 100%;
+    padding: 2rem;
+}
+
+.blog-con {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2rem;
+}
+
+.blog-title {
+    margin: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-item h4 {
+    margin-top: 1rem;
+}
+
+.blog-itam p {
+    margin: 1rem 0;
+}
+
+.blog-itam a {
+    display: inline-block;
+    color: yellow;
+    background-color: rgba(133, 5, 5, 0.911);
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.footer-top {
+    margin-top: 2rem;
+    padding: 3rem;
+    background-color: rgba(133, 5, 5, 0.911);
+    color: yellow;
+}
+
+.footer-top-con {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2rem;
+}
+
+.footer-top-item-con {
+    display: flex;
+}
